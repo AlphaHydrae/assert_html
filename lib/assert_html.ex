@@ -114,7 +114,7 @@ defmodule AssertHTML do
   - if nil should not exist
 
   """
-  @type value :: nil | String.t() | Regex.t()
+  @type value :: nil | String.t() | Regex.t() | non_neg_integer()
 
   @typedoc """
   HTML element attribute name
